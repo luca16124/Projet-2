@@ -353,14 +353,14 @@ a {
 
 .activités img{
     object-fit: cover;
-    width: 297px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px ;
 }
 
 .activités .cardd{
-    width: 297px;
-    height: 440px;
+    width: 90%;
+    height: auto;
     background-color:#FFFFFF;
     border-radius: 20px 20px 20px 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -410,6 +410,14 @@ a {
         width: 100%;
     }
 
+    .hebergements-cards .card-title {
+        font-size: 14px;
+    }
+
+    .hebergements-cards .card-subtitle {
+        font-size: 13px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -451,6 +459,11 @@ a {
     .end{
         margin-right: 100px;
         margin-left: 20px;
+    }
+
+    .choice2{
+        width: 90%;
+        font-size: 90%;
     }
 
 }
@@ -495,9 +508,17 @@ a {
     }
 
     .headerr .li-activité{
-        margin-left: 50px;
-        margin-right: 50px;
+        display: flex;
+        justify-content: center;
         height: 19px;
+        width: 100%;
+    }
+
+    .headerr .li-heberg{
+        display: flex;
+        justify-content: center;
+        height: 19px;
+        width: 100%;
     }
 
     /**** Responsive Du h1 est du P ****/
@@ -518,16 +539,12 @@ a {
 
 
     .bordureSearch{
-        width: auto;
-        border: none;
-    }
-
-    .SearchBarre{
         width: 100%;
-        border-bottom: 1px solid #F2F2F2;
-        border-top: 1px solid #F2F2F2;
     }
 
+    .responsearch{
+        width: 100%;
+    }
 
     .button{
         display: none;
@@ -556,21 +573,21 @@ a {
     /**** Responsive partie Filtre****/
 
     .filtre{
-        font-size: 18px;
+        font-size: 30px;
     }
 
-    .choice{
-        width: 100%;
-    }
-
-    .choice .choice2{
+    .choice2{
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
-        margin-left: -20px;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: -30px;
     }
 
     .choice h3{
         margin-left: 3px;
+        font-size: 13px;
     }
 
     .logofiltre{
