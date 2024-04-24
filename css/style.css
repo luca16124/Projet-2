@@ -466,6 +466,10 @@ a {
         font-size: 90%;
     }
 
+    .choice2{
+        margin-top: 50px;
+        margin-left: -80px;
+    }
 }
 
 /* Smartphones */
@@ -576,13 +580,17 @@ a {
         font-size: 30px;
     }
 
+    .menu{
+        padding-left: 0px;
+    }
+
     .choice2{
+        margin-left: 0px;
         margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%;
-        margin-left: -30px;
     }
 
     .choice h3{
@@ -595,10 +603,11 @@ a {
     }
 
     
-    .choice .selection{
+    .selection{
         font-size: 12px;
         margin-top: 20px;
-        width: 38%;
+        width:48%;
+        margin-left: 0px;
 
     }
 
